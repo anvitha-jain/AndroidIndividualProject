@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.helper.Main2Activity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_time"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="30dp"
+        android:scaleType="centerCrop"
+        android:text="7:00 AM"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_activity"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:text="Wake Up!"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup_mode"
+        android:layout_alignTop="@+id/textView_time"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_mode"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="15dp"
+            android:scaleType="centerCrop"
+            android:text="Mode:"
+            android:textSize="17sp"
+            android:textColor="#000000"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton_normal"
+            android:text="Normal"
+            android:layout_marginStart="50dp"
+            android:checked="true"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton_walk"
+            android:text="Walk"
+            android:layout_marginStart="50dp"/>
+    </RadioGroup>
+
+</RelativeLayout>
