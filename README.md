@@ -1,4 +1,4 @@
-# Android Individual Project
+# Health Reminder
 
 
 Application screenshots:
