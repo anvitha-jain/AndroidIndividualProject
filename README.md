@@ -31,7 +31,7 @@ Application screenshots:
 
 
 
-Architecture Diagram:
+Architecture Diagram :
 
 
 ![Image description](https://github.com/anvitha-jain/AndroidIndividualProject/blob/master/images/archi.png)
